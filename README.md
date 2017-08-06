@@ -1,3 +1,18 @@
+#  Branca CLI
+
+Commandline tool for creating and inspecting [Branca tokens](https://github.com/tuupola/branca-spec).
+
+## Install
+
+Install the library using [Yarn](https://yarnpkg.com/en/) or [npm](https://www.npmjs.com/).
+
+``` bash
+$ yarn global add branca-cli
+$ npm install -g branca-cli
+```
+
+## Usage
+
 ```
   Command line tool for creating and inspecting Branca API tokens.
 
@@ -23,3 +38,15 @@
         --nonce 0x0102030405060708090a0b0c0102030405060708090a0b0c \
         --token 5XhVqpMwNYFFQyukAbfLz0TiQEVFQn8wDYZDmcSHFIeTNQ7zUW2n2CeZUpB1p22hA
 ```
+
+## Contributing
+
+Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
+
+## Security
+
+If you discover any security related issues, please email tuupola@appelsiini.net instead of using the issue tracker.
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
