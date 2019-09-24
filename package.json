@@ -9,7 +9,7 @@
   "author": "Mika Tuupola <tuupola@appelsiini.net>",
   "license": "MIT",
   "dependencies": {
-    "branca": "^0.2.0",
+    "branca": "0.3.0",
     "meow": "^3.7.0"
   },
   "bin": {
