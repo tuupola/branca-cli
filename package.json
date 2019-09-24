@@ -15,11 +15,6 @@
   "bin": {
     "branca": "./index.js"
   },
-  "devDependencies": {
-    "istanbul": "^0.4.5",
-    "tape": "^4.7.0"
-  },
-  "scripts": {
-    "test": "node_modules/istanbul/lib/cli.js cover node_modules/tape/bin/tape test.js"
-  }
+  "devDependencies": {},
+  "scripts": {}
 }
