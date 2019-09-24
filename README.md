@@ -22,7 +22,6 @@ $ npm install -g branca-cli
 
   Options
       --key, -k <key>               Secret key as a string
-      --nonce, -n <nonce>           Nonce as string
       --payload, -p <payload>       Token payload as a string
       --timestamp, -t <timestamp>   UNIX timestamp
 
