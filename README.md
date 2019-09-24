@@ -31,12 +31,10 @@ $ npm install -g branca-cli
 
   Examples
       $ branca encode --key supersecretkeyyoushouldnotcommit \
-        --nonce 0x0102030405060708090a0b0c0102030405060708090a0b0c \
         --timestamp 123206400 --payload "foo"
 
       $ branca decode --key supersecretkeyyoushouldnotcommit \
-        --nonce 0x0102030405060708090a0b0c0102030405060708090a0b0c \
-        --token 5XhVqpMwNYFFQyukAbfLz0TiQEVFQn8wDYZDmcSHFIeTNQ7zUW2n2CeZUpB1p22hA
+        --token 5XhVqpMx7WD7M0GXDAnATSDRqyH8HR0OHl2iBlqetVJoPh2hRauY8cDtJxwAVfrXy
 ```
 
 ## Contributing

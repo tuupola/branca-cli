@@ -20,13 +20,11 @@ Options
 
 Examples
     $ branca encode --key supersecretkeyyoushouldnotcommit \\
-      --nonce 0x0102030405060708090a0b0c0102030405060708090a0b0c \\
       --timestamp 123206400 --payload "foo"
 
     $ branca decode --key supersecretkeyyoushouldnotcommit \\
-      --nonce 0x0102030405060708090a0b0c0102030405060708090a0b0c \\
-      --token 5XhVqpMwNYFFQyukAbfLz0TiQEVFQn8wDYZDmcSHFIeTNQ7zUW2n2CeZUpB1p22hA
-`,
+      --token 5XhVqpMx7WD7M0GXDAnATSDRqyH8HR0OHl2iBlqetVJoPh2hRauY8cDtJxwAVfrXy
+    `,
 {
     alias: {
         k: "key",
@@ -46,17 +44,12 @@ if ("encode" === cli.input[0]) {
 
     const branca = require("branca")(cli.flags.key);
 
-    let nonce = cli.flags.nonce;
-    if (nonce.toString().startsWith("0x")) {
-        nonce = Buffer.from(nonce.substring(2), "hex");
-    };
-
     let payload = cli.flags.payload;
     if (payload.toString().startsWith("0x")) {
         payload = Buffer.from(payload.substring(2), "hex");
     };
 
-	const token = branca.encode(payload, cli.flags.timestamp, nonce);
+	const token = branca.encode(payload, cli.flags.timestamp);
     console.log(token);
 	process.exit(0);
 };
