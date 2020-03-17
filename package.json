@@ -1,6 +1,6 @@
 {
   "name": "branca-cli",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Command line tool for creating and inspecting Branca API tokens.",
   "main": "branca.js",
   "repository": "https://github.com/tuupola/branca-cli",
