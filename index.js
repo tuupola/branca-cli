@@ -18,10 +18,12 @@ Options
     --ttl <ttl>                   TTL for decoding
 
 Examples
-    $ branca encode --key supersecretkeyyoushouldnotcommit \\
+    $ branca encode \\
+      --key 73757065727365637265746b6579796f7573686f756c646e6f74636f6d6d6974 \\
       --timestamp 123206400 --payload "foo"
 
-    $ branca decode --key supersecretkeyyoushouldnotcommit \\
+    $ branca decode \\
+      --key 73757065727365637265746b6579796f7573686f756c646e6f74636f6d6d6974 \\
       --token 5XhVqpMx7WD7M0GXDAnATSDRqyH8HR0OHl2iBlqetVJoPh2hRauY8cDtJxwAVfrXy
     `,
 {
