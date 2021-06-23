@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file, in reverse chronological order by release.
 
-## [0.3.0](https://github.com/tuupola/branca-cli/compare/v0.2.1...master) - 2020-03-17
+## [0.3.0](https://github.com/tuupola/branca-cli/compare/v0.2.1...v0.3.0) - 2021-06-23
 
 ### Changed
 - Bumped [branca](https://github.com/tuupola/branca-js) from 0.3.0 to 0.4.0
