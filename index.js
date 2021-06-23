@@ -50,9 +50,9 @@ if ("encode" === cli.input[0]) {
         payload = Buffer.from(payload.substring(2), "hex");
     };
 
-	const token = branca.encode(payload, cli.flags.timestamp);
+    const token = branca.encode(payload, cli.flags.timestamp);
     console.log(token);
-	process.exit(0);
+    process.exit(0);
 };
 
 if ("decode" === cli.input[0]) {
@@ -64,12 +64,12 @@ if ("decode" === cli.input[0]) {
     const branca = require("branca")(cli.flags.key);
 
     let payload = null;
-	try {
-		payload = branca.decode(cli.flags.token, cli.flags.ttl);
-	} catch (exception) {
+    try {
+    payload = branca.decode(cli.flags.token, cli.flags.ttl);
+    } catch (exception) {
         console.log(exception.message || "Invalid token.");
         process.exit(1);
-	}
+    }
     console.log(payload.toString());
     process.exit(0);
 };
