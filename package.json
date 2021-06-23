@@ -1,6 +1,6 @@
 {
   "name": "branca-cli",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Command line tool for creating and inspecting Branca API tokens.",
   "main": "branca.js",
   "repository": "https://github.com/tuupola/branca-cli",
@@ -9,7 +9,7 @@
   "author": "Mika Tuupola <tuupola@appelsiini.net>",
   "license": "MIT",
   "dependencies": {
-    "branca": "0.3.0",
+    "branca": "0.4.0",
     "meow": "^3.7.0"
   },
   "bin": {
