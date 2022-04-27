@@ -4,7 +4,7 @@ Commandline tool for creating and inspecting [Branca tokens](https://github.com/
 
 ## Install
 
-Install the library using [Yarn](https://yarnpkg.com/en/) or [npm](https://www.npmjs.com/).
+Install the binary using [Yarn](https://yarnpkg.com/en/) or [npm](https://www.npmjs.com/).
 
 ``` bash
 $ yarn global add branca-cli
@@ -48,4 +48,4 @@ If you discover any security related issues, please email tuupola@appelsiini.net
 
 ## License
 
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+The MIT License (MIT). Please see [License File](LICENSE) for more information.
