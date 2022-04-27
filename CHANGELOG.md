@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file, in reverse chronological order by release.
 
+## [0.4.0-dev](https://github.com/tuupola/branca-cli/compare/v0.3.0...master) - unreleased
+
+### Changed
+- Upgraded branca and meow ([#7](https://github.com/tuupola/branca-cli/pull/7))
+
 ## [0.3.0](https://github.com/tuupola/branca-cli/compare/v0.2.1...v0.3.0) - 2021-06-23
 
 ### Changed
